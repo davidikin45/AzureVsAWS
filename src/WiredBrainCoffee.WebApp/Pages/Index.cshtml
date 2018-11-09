@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h2>Wired Brain Coffee Videos<img src="~/images/logo.png" style="height:50px;margin-left:10px" /></h2>
+
+<div class="row">
+    @foreach (var coffeeVideoModel in Model.CoffeeVideoModels)
+    {
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1 class="panel-title">@coffeeVideoModel.Title</h1>
+                </div>
+                <div class="panel-body">
+                    <p>@coffeeVideoModel.Description</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls>
+                            <source src="@coffeeVideoModel.BlobUri"
+                                    type="video/mp4" />
+                            Your browser supports no video
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,70 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #222;
+    color: white;
+}
+
+.navbar {
+    background-color: #444;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #DDD;
+}
+
+.navbar-inverse .navbar-nav li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #DDD;
+}
+
+a {
+    color: #F05A28;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: #F05A28;
+    font-weight: bold;
+}
+
+video {
+    border: 3px solid dimgray;
+    background-color: dimgray;
+}
+
+.panel-default {
+    border-color: black;
+    background-color: #444;
+    color: white;
+}
+
+.panel-default > .panel-heading {
+    background-color: #F05A28;
+    color: white;
+    border-color: black;
+}
+
+.panel-title{
+    font-weight: bold;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
