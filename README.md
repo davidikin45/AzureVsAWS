@@ -101,3 +101,14 @@
 
 ### Azure
 ![alt text](img/azure-dw.png "Azure Data Warehouse")
+
+## Security
+* Key vaults allow you to manage credentials and programatically get the credentials without exposing plain text password.
+
+### Azure
+* [Key Vault](https://azure.microsoft.com/en-gb/pricing/details/key-vault/)
+* [Multi-Factor Authentication](https://azure.microsoft.com/en-gb/pricing/details/multi-factor-authentication/)
+
+### AWS
+* [Key Management Services](https://aws.amazon.com/kms/)
+* [Multi-Factor Authentication](https://aws.amazon.com/iam/details/mfa/)
