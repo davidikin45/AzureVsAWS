@@ -112,3 +112,20 @@
 ### AWS
 * [Key Management Services](https://aws.amazon.com/kms/)
 * [Multi-Factor Authentication](https://aws.amazon.com/iam/details/mfa/)
+
+## SLA's
+
+### Azure
+* https://azure.microsoft.com/en-gb/support/legal/sla/
+
+### AWS
+* https://aws.amazon.com/de/legal/service-level-agreements/
+
+## Budget Alerts
+
+### Azure
+* https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade
+
+### AWS
+* https://console.aws.amazon.com/billing/home?#/budgets
+* https://us-east-2.console.aws.amazon.com/cloudwatch/home
